@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive !important;
+}
+
+.window {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 15px 0 15px 20px;
+  background-color: #242F3A;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+input.form {
+  height: 30px;
+  width: 72%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+button.form {
+  height: 30px;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.body {
+  border: 1px solid #43586B;
+  height: 500px;
+  background-color: #43586B;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.task {
+  margin: 20px 20px;
+  position: relative;
+  padding: 10px 50px 10px 20px;
+  border-radius: 5px;
+  background-color: #658BAD;
+}
+
+.name {
+  color: white
+}
+
+.cancel {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  margin-top: 8px;
+  border: 1px solid #2E6DA4;
+  display: inline;
+  width: 25px;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #337AB7;
+  color: white;
+}

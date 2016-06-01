@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Task List</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>Task Center</h1>
+  <div>
+    <div class="window">
+      <div class="header">
+        <input class="form" type="text" id="text-input" name="task-text">
+        <button class="form btn btn-primary" id="btn-add">Add</button>
+      </div>
+      <div class="body">
+        <div class="task">
+          <div class="name">Example Task</div>
+          <div class="cancel">X</div>
+        </div>
+        <div class="task">
+          <div class="name">Example Task</div>
+          <div class="cancel">X</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
 </html>
